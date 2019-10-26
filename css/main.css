@@ -26,17 +26,18 @@ h1, h2 {
   color: #b20953;
 }
 
-li a {
-  display: inline-block;
+li {
+  display: block;
   background-color: #b2a212;
   font-family: Georgia;
   font-size: 1.125rem;
   border-radius: 4px;
   text-decoration: none;
   color: #fff;
-  list-style: none;
-  text-align: center;
+}
 
+ol, ul {
+  list-style: none;
 }
 
 .home .blue .grapes .red a {
@@ -45,7 +46,7 @@ li a {
   text-decoration: none;
 }
 
-a:hover {
+#main a:hover {
   background-color: #cc1465;
   color: #fff;
   text-decoration: none;
