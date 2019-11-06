@@ -26,27 +26,26 @@ h1, h2 {
   color: #b20953;
 }
 
-li {
-  display: block;
-  background-color: #b2a212;
-  font-family: Georgia;
-  font-size: 1.125rem;
+nav li {
+  display: inline-block;
+  font-family: Georgia, serif;
+  color: #FFF;
+}
+
+nav a {
+  display: inline-block;
+  padding: .2em .5em .3em;
+  text-decoration: none;
   border-radius: 4px;
-  text-decoration: none;
-  color: #fff;
+  background-color: #b2a212;
+  color: #FFF;
 }
 
-ol, ul {
-  list-style: none;
+.current {
+  background-color: #b20953;
 }
 
-.home .blue .grapes .red a {
-  color: #fff;
-  font-family: Georgia;
-  text-decoration: none;
-}
-
-#main a:hover {
+a:hover {
   background-color: #cc1465;
   color: #fff;
   text-decoration: none;
@@ -71,4 +70,6 @@ footer {
   background-color: #ffe500;
   display: block;
   text-align: center;
+  padding: .75em;
+  margin: .3em;
 }
