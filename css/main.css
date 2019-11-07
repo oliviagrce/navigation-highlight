@@ -65,8 +65,9 @@ img {
   display: block;
   margin: auto auto auto 0;
   max-width: 100%;
+  width: auto;
   height: auto;
-  padding: 0.75em;
+  padding: .75em;
 }
 
 p {
