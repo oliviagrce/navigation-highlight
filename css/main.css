@@ -8,11 +8,6 @@ html {
 }
 
 h1 {
-  margin: .3rem;
-  font-size: 3rem;
-}
-
-h1 {
   font-family: "Sigmar One", serif;
   color: #b20953;
   background-color: #ffe500;
@@ -23,9 +18,9 @@ h1 {
   text-align: center;
 }
 
-  h2 {
-    font-family: "Sigmar One", serif;
-    color: #b20953;
+h2 {
+  font-family: "Sigmar One", serif;
+  color: #b20953;
 }
 
 nav li {
