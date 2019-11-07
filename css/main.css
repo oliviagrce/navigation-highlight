@@ -67,8 +67,7 @@ h2 {
   font-size: 1.875rem;
   font-family: "Sigmar One", serif;
   color: #b20953;
-  padding: 0.75em 0.5em;
-  margin: 0;
+  padding: 0 .5em;
 }
 
 img {
