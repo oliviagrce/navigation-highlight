@@ -1,19 +1,10 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  margin: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-header {
-  background-color: #ffe500;
-  display: block;
-  text-align: center;
-  margin: 0;
-  padding: .2em .5em .3em;
 }
 
 h1 {
@@ -21,9 +12,20 @@ h1 {
   font-size: 3rem;
 }
 
-h1, h2 {
+h1 {
   font-family: "Sigmar One", serif;
   color: #b20953;
+  background-color: #ffe500;
+  font-size: 3rem;
+  margin: auto;
+  max-width: 100;
+  height: auto;
+  text-align: center;
+}
+
+  h2 {
+    font-family: "Sigmar One", serif;
+    color: #b20953;
 }
 
 nav li {
@@ -65,7 +67,7 @@ img {
   display: block;
   margin: auto auto auto 0;
   max-width: 100%;
-  width: auto;
+  width: 1440px;
   height: auto;
   padding: .75em;
 }
