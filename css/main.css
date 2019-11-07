@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -30,11 +31,11 @@ ul {
 
 nav {
   width: 100%;
+  font-size: 1.125rem;
 }
 
 nav li {
   display: inline-block;
-  font-family: Georgia, serif;
   color: #fff;
   font-size: 1.1rem;
 }
@@ -67,23 +68,19 @@ h2 {
   font-size: 1.875rem;
   font-family: "Sigmar One", serif;
   color: #b20953;
-  padding: 0 .5em;
 }
 
 img {
   display: block;
-  margin: auto auto auto 0;
   width: 100%;
-  height: auto;
+}
+
+main {
   padding: 0 .75em;
 }
 
 p {
-  font-size: 1.125rem;
-  padding: 1em .5em;
   color: #2f2d13;
-  margin: 0;
-  line-height: 1.25em;
 }
 
 footer {
